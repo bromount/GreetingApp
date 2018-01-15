@@ -8,9 +8,14 @@ This is a sample spring boot application built using maven.
 * [Git](https://git-scm.com/downloads)
 * [Tomcat](https://tomcat.apache.org/download-80.cgi)
 
+### A note before running the application 
+   - Ensure `JAVA_HOME` environment variable is set and points to your JDK installation.
+   - Ensure that the bin directory of the apache-maven installed on you machine is added to the `PATH` environment variable.
+   - You could verify both of these by running the command `mvn -v` on your terminal/command prompt. This should show your maven and java version installed on your machine
+   
 ## How to run?
 #### 1. Clone this repository
- Run the command: `git clone https://github.com/Pradeep-525512/SampleWebApp`
+ - Run the command: `git clone https://github.com/Pradeep-525512/SampleWebApp`
  
 #### 2. Use Maven to build the application
 - Navigate to the folder where the rpository was cloned and look for the directory with pom.xml 
