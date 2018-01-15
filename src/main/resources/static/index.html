@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Getting Started: Sample Maven Web Application</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript">
+    function changeAction()
+    {
+    	var name= document.getElementByID("name");
+    	if(name!=null)
+    		document.getElementById("myForm").action = "greeting?name="+name;
+    }
+    
+    </script>
+</head>
+<body>
+<form name="greetingForm" action='greeting'>
+	What is your name?
+	<input name="name" type="text"/>
+    <p>Get your greeting <input type="submit" value="here">
+ </form>
+</body>
+</html>
