@@ -64,15 +64,4 @@
 			</plugin>
 		</plugins>
 	</build>
-<reporting>
-      <plugin>
- 	<groupId>org.apache.maven.plugins</groupId>
- 	<artifactId>maven-checkstyle-plugin</artifactId>
- 	<version>2.10</version>
- 	<configuration>
-  		<sourceDirectory>src</sourceDirectory>
- 	</configuration>
-     </plugin>
-</reporting>
-
 </project>
