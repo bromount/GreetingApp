@@ -54,18 +54,4 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-<reporting>
-   <plugins>
-      <plugin>
-         <groupId>org.codehaus.mojo</groupId>
-         <artifactId>findbugs-maven-plugin</artifactId>
-         <version>${findbugs.version}</version>
-      </plugin>
-      <plugin>
-         <groupId>org.apache.maven.plugins</groupId>
-         <artifactId>maven-checkstyle-plugin</artifactId>
-         <version>${checkstyle.version}</version>
-      </plugin>     
-   </plugins>
-</reporting>
 </project>
