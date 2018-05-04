@@ -13,5 +13,10 @@ public class GreetingController {
         model.addAttribute("name", name);
         return "greeting";
     }
-
+     public void FindbugError () {
+        Integer number1 = new Integer(123);
+        Integer number2 = Integer.valueOf(123); 
+        System.out.println("number1 =  " + number1);
+        System.out.println("number2 =  " + number2);   
+     }
 }
