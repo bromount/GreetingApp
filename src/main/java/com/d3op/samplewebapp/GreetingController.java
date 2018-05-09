@@ -13,10 +13,13 @@ public class GreetingController {
         model.addAttribute("name", name);
         return "greeting";
     }
-     public void FindbugError () {
-        Integer number1 = new Integer(123);
-        Integer number2 = Integer.valueOf(123); 
-        System.out.println("number1 =  " + number1);
-        System.out.println("number2 =  " + number2);   
+     public void FindbugError() {
+        String word1="word1";
+        String word2="word2";
+        if(word1==word2)
+        	System.out.println("Words match");
+        else
+        	System.out.println("Words dont match");
+        
      }
 }
