@@ -13,5 +13,13 @@ public class GreetingController {
         model.addAttribute("name", name);
         return "greeting";
     }
-
+     public void FindbugError() {
+        String word1="word1";
+        String word2="word2";
+        if(word1==word2)
+        	System.out.println("Words match");
+        else
+        	System.out.println("Words dont match");
+        
+     }
 }
